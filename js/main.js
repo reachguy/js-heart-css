@@ -3,8 +3,8 @@ var $header = $('header');
 var $main = $('main');
 var $pfirst = $('main p:first-child');
 var $h2 = $('h2');
-var $mainlist = $('main ul')
-var $img = $('img')
+var $mainlist = $('main ul');
+var $img = $('img');
 var $ulfirst = $('ul:first-child');
 var $ullast = $('ul:last-child');
 var $dl = $('dl');
@@ -31,4 +31,4 @@ $dl.addClass('classification');
 
 $dt.removeClass('big-label');
 
-$ullast(show);
+$ullast.show();
